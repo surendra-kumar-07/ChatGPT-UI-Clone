@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Chat container start -->
+    <div class="chat-container"></div> 
+    <!-- chat container end -->
+
+    <!-- Typing container  -->
+    <div class="typing-container">
+        <div class="typing-content">
+            <div class="typing-textarea">
+                <textarea id="chat-input" placeholder="Enter a prompt here" required></textarea>
+                <span id="send-btn" class="icon-send"><svg><use xlink:href="./svgfile.svg#icon-send"></use></svg></span>
+            </div>
+            <div class="typing-controls">
+                <span id="theme-btn" class="icon-copy"><svg><use xlink:href="./svgfile.svg#icon-theme"></use></svg></span>
+                <span id="delete-btn" class="icon-copy"><svg><use xlink:href="./svgfile.svg#icon-trash"></use></svg></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
